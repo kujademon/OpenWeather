@@ -28,6 +28,7 @@
 		35C8917F2834E26F005FAF87 /* ForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C8917E2834E26F005FAF87 /* ForecastService.swift */; };
 		35C891812834E30E005FAF87 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C891802834E30E005FAF87 /* ForecastViewModel.swift */; };
 		35C891832834E48A005FAF87 /* ForecastListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C891822834E48A005FAF87 /* ForecastListViewModel.swift */; };
+		35C8918528365620005FAF87 /* Key.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C891842836561F005FAF87 /* Key.plist */; };
 		E7D461321CA7B36B88AAAE8E /* Pods_OpenWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEA362B88118118422BE624 /* Pods_OpenWeather.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		35C8917E2834E26F005FAF87 /* ForecastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastService.swift; sourceTree = "<group>"; };
 		35C891802834E30E005FAF87 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
 		35C891822834E48A005FAF87 /* ForecastListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListViewModel.swift; sourceTree = "<group>"; };
+		35C891842836561F005FAF87 /* Key.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Key.plist; sourceTree = "<group>"; };
 		8AEA362B88118118422BE624 /* Pods_OpenWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8568371638E781D8F414532 /* Pods-OpenWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeather.release.xcconfig"; path = "Target Support Files/Pods-OpenWeather/Pods-OpenWeather.release.xcconfig"; sourceTree = "<group>"; };
 		E245C3E89E1EDE661EEB5B4A /* Pods-OpenWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeather.debug.xcconfig"; path = "Target Support Files/Pods-OpenWeather/Pods-OpenWeather.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				35C891542833D4B2005FAF87 /* LaunchScreen.storyboard */,
 				35C891572833D4B2005FAF87 /* Info.plist */,
 				35C891632833D705005FAF87 /* GlobalConstant.swift */,
+				35C891842836561F005FAF87 /* Key.plist */,
 			);
 			path = OpenWeather;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			files = (
 				35C891562833D4B2005FAF87 /* LaunchScreen.storyboard in Resources */,
 				35C891532833D4B2005FAF87 /* Assets.xcassets in Resources */,
+				35C8918528365620005FAF87 /* Key.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,17 @@ import Foundation
 
 class GlobalConstant{
     
-    static let apiKey = "63a027b6bf40fee37006268675601567"
+    static let apiKey : String = {
+        var keys: NSDictionary?
+        if let path = Bundle.main.path(forResource: "Key", ofType: "plist") {
+            keys = NSDictionary(contentsOfFile: path)
+        }
+        if let dict = keys ,let apikey = dict["apikey"] as? String{
+            
+            return apikey
+        }
+        return ""
+    }()
     
     static let url = "https://api.openweathermap.org/data/2.5/"
     
